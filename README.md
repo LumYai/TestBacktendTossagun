@@ -4,7 +4,11 @@
 -Docker setup
 
 docker pull mysql
+
+
 docker pull phpmyadmin
+
+
 
 1. run sql data base 
 => docker run --name mysql-server -v //c/mysql-data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=1234 -p 3307:3306 -d mysql
