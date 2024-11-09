@@ -1,62 +1,40 @@
-Backend Test
+# Backend Test
+## Docker setup
 
-
-
-  
--Docker setup
-
+```bash
 docker pull mysql
-
-
+```
+```bash
 docker pull phpmyadmin
-
-
-
-1. run sql data base
-
-   
-=> docker run --name mysql-server -v //c/mysql-data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=1234 -p 3307:3306 -d mysql
-
-
-2. run phpmyadmin
-
-=> docker run --name phpmyadmin-server -d --link mysql-server:db -p 8080:80 phpmyadmin
-
-
-Download postman api
+```
+### 1. run sql data base
+```bash
+docker run --name mysql-server -v //c/mysql-data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=1234 -p 3307:3306 -d mysql
+```
+### 2. run phpmyadmin
+```bash
+docker run --name phpmyadmin-server -d --link mysql-server:db -p 8080:80 phpmyadmin
+```
+## Download postman api
 [ดาวน์โหลดไฟล์ BackEndTestTossagun.postman_collection.json](https://github.com/LumYai/blob/master/TestBacktendTossagun/BackEndTestTossagun.postman_collection.json)
-
-
-
-
-
-
-
-nodejs
-
+## nodejs
 
 1. สร้าง node_modules ที่จำเป็นต้องใช้งาน
-
-=> npm i
-
-
+```bash
+npm i
+```
 2. run server
+```bash
+node index.js
+```
+## PHPMYADMIN
+1. http://localhost:8080/
+2. username: root
+3. password: 1234
 
-
-=> node index.js
-
-
-
-
-
-PHPMYADMIN
-=> http://localhost:8080/
-=> username: root
-=> password: 1234
-
-Docker Hub
-https://hub.docker.com/r/nattaponnoiwanna/mysql-server-backend
-https://hub.docker.com/r/nattaponnoiwanna/phpmyadmin-server-backend
+## Docker Hub
+1. https://hub.docker.com/r/nattaponnoiwanna/mysql-server-backend
+2. https://hub.docker.com/r/nattaponnoiwanna/phpmyadmin-server-backend
 
 ![image](https://github.com/user-attachments/assets/85ce3070-359b-4710-8402-8a0dda09808e)
 
