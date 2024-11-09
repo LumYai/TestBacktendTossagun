@@ -24,7 +24,7 @@ docker pull phpmyadmin
 
 
 Download postman api
-[ดาวน์โหลดไฟล์ BackEndTestTossagun.postman_collection.json](https://github.com/LumYai/TestBacktendTossagun/blob/main/BackEndTestTossagun.postman_collection.json)
+[ดาวน์โหลดไฟล์ BackEndTestTossagun.postman_collection.json](https://github.com/LumYai/TestBacktendTossagun/BackEndTestTossagun.postman_collection.json)
 
 
 
