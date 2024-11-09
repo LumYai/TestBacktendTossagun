@@ -1,4 +1,4 @@
-[BackEndTestTossagun.postman_collection.json](https://github.com/user-attachments/files/17686764/BackEndTestTossagun.postman_collection.json)[BackEndTestTossagun.postman_collection.json](https://github.com/user-attachments/files/17686762/BackEndTestTossagun.postman_collection.json)  Backend Test
+Backend Test
 
 
 
@@ -23,7 +23,9 @@ docker pull phpmyadmin
 => docker run --name phpmyadmin-server -d --link mysql-server:db -p 8080:80 phpmyadmin
 
 
-สามารถนำไฟล์ชื่อ 
+Download postman api
+[ดาวน์โหลดไฟล์ BackEndTestTossagun.postman_collection.json](https://github.com/LumYai/TestBacktendTossagun/blob/main/BackEndTestTossagun.postman_collection.json)
+
 
 
 
